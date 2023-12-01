@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">pruebasMaterialDesign</string>
+    <string-array name="restaurants">
+        <item></item>
+        <item>Sushi</item>
+        <item>Italià</item>
+        <item>Menjar Ràpid</item>
+    </string-array>
+</resources>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".restaurants">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Restaurant"
+        android:textColor="@color/lavender"
+        android:textSize="35sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/b1"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/atarasii"
+                    android:layout_width="170dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/atarasii"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignParentStart="true"/>
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/atarasii"
+                    android:layout_marginLeft="10dp"
+                    android:justificationMode="inter_word"
+                    android:text="BUFFET LIBRE A LA CARTA – DIA Lunes a viernes mediodías Adultos	14,50€ Niños(3 a 8 años)	10,50€ No incluye bebida y postre"
+                    />
+
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/atarasii"
+                    android:layout_marginTop="11dp"
+                    android:text="Atarasii"
+                    android:gravity="center"
+                    />
+
+                <ImageButton
+                    android:id="@+id/ubi1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/t1"
+                    android:layout_below="@+id/num1"
+                    android:src="@drawable/location"
+                    android:background="@color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/num1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toRightOf="@+id/t1"
+                    android:background="@color/transparent"
+                    android:src="@drawable/phone" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/macdo"
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:src="@drawable/atarasii"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/macdo"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="BUFFET LIBRE A LA CARTA – DIA Lunes a viernes mediodías Adultos	14,50€ Niños(3 a 8 años)	10,50€ No incluye bebida y postre"
+                />
+
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/macdo"
+                android:layout_marginTop="11dp"
+                android:text="MCDonalds"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:id="@+id/ubi2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t2"
+                android:layout_below="@+id/num2"
+                android:src="@drawable/location"
+                android:background="@color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/num2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t2"
+                android:background="@color/transparent"
+                android:src="@drawable/phone" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/ElItaliano"
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:src="@drawable/italiano"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ElItaliano"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="BUFFET LIBRE A LA CARTA – DIA Lunes a viernes mediodías Adultos	14,50€ Niños(3 a 8 años)	10,50€ No incluye bebida y postre"
+                />
+
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ElItaliano"
+                android:layout_marginTop="11dp"
+                android:text="El Italiano"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:id="@+id/ubi3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t3"
+                android:layout_below="@+id/num3"
+                android:src="@drawable/location"
+                android:background="@color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/num3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t3"
+                android:background="@color/transparent"
+                android:src="@drawable/phone" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="fletxa"
+        android:layout_gravity="bottom"
+        android:background="@color/transparent"
+        android:id="@+id/arrowback"
+        android:src="@drawable/arrowback"/>
+</LinearLayout>

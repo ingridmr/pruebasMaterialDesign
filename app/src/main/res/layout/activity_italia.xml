@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".italia">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Italià"
+        android:textColor="@color/lavender"
+        android:textSize="35sp"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/ElItaliano"
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:src="@drawable/italiano"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/ElItaliano"
+                android:layout_marginLeft="10dp"
+                android:justificationMode="inter_word"
+                android:text="BUFFET LIBRE A LA CARTA – DIA Lunes a viernes mediodías Adultos	14,50€ Niños(3 a 8 años)	10,50€ No incluye bebida y postre"
+                />
+
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ElItaliano"
+                android:layout_marginTop="11dp"
+                android:text="El Italiano"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:id="@+id/ubi4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t4"
+                android:layout_below="@+id/num4"
+                android:src="@drawable/location"
+                android:background="@color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/num4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t4"
+                android:background="@color/transparent"
+                android:src="@drawable/phone" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Jiro -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b5"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/mezza"
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:src="@drawable/jiro"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/mezza"
+                android:layout_marginLeft="10dp"
+                android:text="Todos los días de Lunes a Domingo:
+- 13:00h - 16:30h
+- 20:00h – 00:00h
+MEDIODÍA - 15,95€
+NOCHE - 21,95€"
+                />
+
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mezza"
+                android:layout_marginTop="11dp"
+                android:text="La Mezza Luna"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:id="@+id/ubi5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t5"
+                android:layout_below="@+id/num5"
+                android:src="@drawable/location"
+                android:background="@color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/num5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t5"
+                android:background="@color/transparent"
+                android:src="@drawable/phone" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Wagaya -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b6"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/sapore"
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:src="@drawable/wagaya"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/sapore"
+                android:layout_marginLeft="10dp"
+                android:text="De Martes a Domingo:
+                13:00h - 16:00h
+                20:30h – 23:30h
+                El precio del menú va de 13.50€ a 15.90€ dependiendo del plato escogido. "
+                />
+
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sapore"
+                android:layout_marginTop="11dp"
+                android:text="Il Sapore Italiano"
+                android:gravity="center"
+                />
+
+            <ImageButton
+                android:id="@+id/ubi6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t6"
+                android:layout_below="@+id/num6"
+                android:src="@drawable/location"
+                android:background="@color/transparent"/>
+
+            <ImageButton
+                android:id="@+id/num6"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/t6"
+                android:background="@color/transparent"
+                android:src="@drawable/phone" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="fletxa"
+            android:layout_gravity="bottom"
+            android:background="@color/transparent"
+            android:id="@+id/arrowback"
+            android:src="@drawable/arrowback"/>
+    </LinearLayout>
+</LinearLayout>
